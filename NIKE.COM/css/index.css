@@ -1,0 +1,116 @@
+
+.gnb_notice { width: 100%; height: 55px; background-color: #f5f5f5; }
+
+
+/* main visual CSS */
+
+.main_visual_wrap { width: 100%; display: flex; }
+.main_visual { width: 100%; padding: 0 8px; display: flex;}
+
+.main_visual_1 { width: 50%; height: 900px; background-image: url("../img/main_visual_1.png"); margin: 0 0 0 50px; }
+.main_visual_1:hover {cursor: pointer;}
+
+.main_visual_2 { width: 50%; height: 900px; background-image: url("../img/main_visual_2.png"); margin: 0 50px 0 0 ; }
+.main_visual_2:hover {cursor: pointer;}
+
+
+/* button_shop CSS */
+.button_shop_white { display: block; width: 95px; height: 40px; background-color: #ffffff; color: rgb(17, 17, 17); border-radius: 20px; text-align: center; line-height: 40px; border: 0; outline: 0; font-size: 16px; }
+.button_shop_white:hover { background-color: rgb(255, 255, 255, 0.6); }
+
+.button_shop_black { width: 95px; height: 40px; background-color: rgb(17, 17, 17); color: #ffffff; border-radius: 20px; text-align: center; line-height: 40px; border:  0; outline: 0; font-size: 16px;}
+.button_shop_black:hover { background-color: rgba(0, 0, 0, 0.6); }
+
+
+
+.text_left { position: absolute; left: 100px; top: 850px; color: #ffffff;  }
+.text_left p:nth-child(1) { font-family: 'Nike Futura'; font-size: 70px; line-height: 1.2; }
+.text_left p:nth-child(2) { font-family: 'Noto Sans KR'; font-size: 16px; font-weight: 400; line-height: 18px; margin-bottom: 30px; }
+
+.text_right { position: absolute; right: 100px; top: 1000px; color: #ffffff; font-family: 'Noto Sans KR'; font-size: 14px; font-weight: 200; line-height: 1.2; }
+
+
+/* trending Now */
+
+.trending_now_wrap { width: 100%; }
+.trending_now_wrap h2 {  margin-left: 50px; padding-left: 10px; }
+.trending_now { margin: 0 50px; display: flex; }
+.trending_now li { padding: 0 8px; position: relative; }
+.trending_now_btn { position: absolute; left:40px; bottom: 40px; }
+.trending_now_btn p { padding-left: 5px; line-height: 1.2; }
+
+
+
+/* .trending_now_1 { width: calc(50% - 16px); height: 700px; margin: 0 0 0 50px;   }
+.trending_now_1_a {  display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;}
+
+.trending_now_2 { width: calc(50% - 16px); height: 700px; margin: 0 50px 0 0px;  }
+.trending_now_2_a {  display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;}
+ */
+
+
+/* The Latest And Greatest CSS */
+
+.the_latest_wrap_wrap { width: 100%; }
+.the_latest_wrap h2 { margin-left: 50px; padding-left: 10px; }
+
+.the_latest { width: 200%; margin: 0 50px; display: flex; }
+.the_latest li { width: calc(33.3333%-16px); height: auto; margin: 0 8px; }
+.the_latest li img { width: 100%; vertical-align: middle; }
+.the_latest_info { display: flex; justify-content: space-between; padding-right: 10px; }
+
+.the_latest_scroll_wrap { width: 100%; overflow: scroll; }
+
+
+
+/* Just In CSS */
+
+.just_in_wrap { width: 100%; }
+.just_in_wrap h2 { margin-left: 50px; padding-left: 10px; }
+
+.just_in {  margin: 0 50px; display: flex; }
+.just_in li { width: calc(33.3333%-16px); height: auto; margin: 0 8px; position: relative; }
+.just_in li img { width: 100%; }
+.trending_now_btn { position: absolute; left:40px; bottom: 40px; }
+.trending_now_btn p { padding-left: 5px; line-height: 1.2; }
+
+
+
+/* .just_in_1 { width: 50%; height: 700px; background-image: url(../img/just_in_1.jpg); padding: 36px; }
+.just_in_1_a { display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; }
+
+.just_in_2 { width: 50%; height: 700px; background-image: url(../img/just_in_2.jpg); padding: 36px; }
+.just_in_2_a { display: block; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; } */
+
+
+
+
+
+
+/* More To Explore CSS */
+
+.more_to_explore_wrap { width: 100%; }
+.more_to_explore_wrap h2 { margin-left: 50px; padding-left: 10px; }
+.more_to_explore { margin: 0 50px; display: flex;}
+.more_to_explore li { width: calc(33.3333%-16px); margin: 0 8px; }
+.more_to_explore li img { width: 100%; }
+
+/* 
+.just_in li { width: calc(33.3333%-16px); height: auto; margin: 0 8px; position: relative; } */
+
+
+/* image card CSS */
+
+.image_card_wrap { width: 100%; }
+.image_card { height: 500px; margin: 0 50px; background-image: url(../img/image_card.jpg); }
+.image_card_btn { padding: 420px 0 0 0; text-align: center; }
+
+
+/* bottom menu CSS */
+.bottom_menu_wrap { width: 100%; margin-bottom: 84px; }
+.bottom_menu { display: flex; justify-content: space-between; margin: 0 500px; }
+.bottom_menu ul { margin: 0 10px; }
+.bottom_menu ul li { line-height: 36px; }
+
+.bottom_menu a { color: rgb(117, 117, 117); }
+
