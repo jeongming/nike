@@ -1,0 +1,71 @@
+header { width: 100%; height: auto; }
+
+.gnb { width: 100%; height: 96px; }
+
+
+/* gnb top CSS */
+
+.gnb-top { width: 100%; height: 36px; padding: 0 38px 0 36px; background-color: #f5f5f5; display: flex; justify-content: space-between; }
+
+.gnb-top__brand { display: flex; }
+.gnb-top__brand li {  }
+.gnb-top__brand li a { height: 100%; padding: 0 12px; display: flex; align-items: center; }
+.gnb-top__brand li a svg:hover { fill: rgb(150, 150, 150); }
+
+.gnb-top__usermenu { display: flex; align-items: center; }
+.gnb-top__usermenu li { font-family: 'Noto Sans KR'; font-size: 12px; line-height: 18px; font-weight: 400; }
+.gnb-top__usermenu li a { padding: 4px 8px; color: rgb(17, 17, 17); }
+.gnb-top__usermenu li a:hover { color: rgb(150, 150, 150); }
+
+
+/* gnb bottom CSS */
+
+.gnb-bottom { width: 100%; height: 60px; padding: 0 38px 0 36px; display: flex; justify-content: space-between; position: relative; }
+
+.gnb-bottom__logo a { height: 100%; padding: 0 12px; display: block; }
+.gnb-bottom__logo a svg:hover { fill: rgb(150, 150, 150); }
+
+/* gnb bottom main menu */
+.gnb-bottom__mainmenu { display: flex; align-items: center; margin: 0 0 0 200px; }
+.gnb-bottom__mainmenu li { font-family: 'Noto Sans KR'; font-size: 16px; line-height: 24px; font-weight: 400; color: rgb(17, 17, 17); display: block; }
+.mainmenu-hover { padding: 16px 12px; color: rgb(17, 17, 17); }
+.mainmenu-hover:hover { border-bottom: 2px solid rgb(17, 17, 17); }
+
+
+/*  submenu */
+.submenu_wrap { display: none; position: absolute; top: 60px; left: 0; z-index: 1; width: 100%; padding: 30px 550px 50px; background-color: white; }
+.submenu_wrap a { font-size: 14px; color: ; }
+.submenu_wrap a:hover {  }
+.gnb-bottom__mainmenu li:hover .submenu_wrap { display: block; }
+
+.submenu { display: flex; }
+.submenu ul { margin: 0 80px 0 0; }
+.submenu ul:last-child { margin: 0; }
+.submenu a { font-size: 14px; font-weight: 300; line-height: 20px; color: rgb(117, 117, 117); }
+.submenu a:hover { color: rgb(17, 17, 17); }
+.submenu_title { margin: 0 0 14px 0; color: rgb(17, 17, 17); }
+
+
+/* 애니메이션 정의 */
+@keyframes menu_slide {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+
+.gnb_bottom_right { display: flex; align-items: center; }
+
+.gnb_bottom_right li { margin: 0 12px;  }
+
+.gnb_bottom_right li:nth-child(1) { width: 180px; height: 40px; background-color: rgb(246, 246, 246); border-radius: 20px; }
+.gnb_bottom_right li:nth-child(1):hover { background-color: rgb(200,200,200);}
+.gnb_bottom_right li:nth-child(1) svg { margin: 0 10px;}
+.gnb_bottom_right li:nth-child(3) { margin: 0 0; }
+
+.gnb_bottom_right li a { display: block; padding: 6px; font-family: 'Noto Sans KR'; font-size: 16px; line-height:24px; font-weight: 400; color:rgb(100,100,100); }
+.gnb_bottom_right li a:hover { padding: 6px; background-color: rgb(200, 200, 200); border-radius: 25px;} 
+
+.gnb_bottom_right li a svg { vertical-align: middle; }
+
